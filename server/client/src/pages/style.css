@@ -1,0 +1,152 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: #fff;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.inputs{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 20px;
+    background: #202023;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #3f3f3f
+
+}
+
+h1{
+    color:#202023 ;
+    text-align: center;
+    margin-top: 50px;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    color: #6c6c6e;
+}
+label{
+    color:#ededed;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 8px;
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    outline: none;
+}
+.check label{
+    margin-left: 15px;
+}
+.check input{
+    font-size: 15px;
+}
+.add-btn{
+    padding: 5px ;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.add-btn:hover{
+    transform: scale(1.02);
+
+}
+
+.content-table{
+    border-collapse: collapse;
+    font-size: 18px;
+    min-width: 800px;
+    margin: 0 auto;
+   
+}
+.content-table thead tr{
+    background-color: #202023;
+    color: #ededed;
+    text-align: left;
+    font-weight: bold;
+   
+}
+.content-table th,
+.content-table td{
+    padding: 12px 15px;
+    /* text-align: center; */
+  
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #ccc;
+   
+}
+.content-table tbody tr:hover {
+    background: #dfdfe1;
+}
+.edit {
+    padding: 4px 10px;
+    background-color: #57ed4c;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 3px;
+    transition: 0.2s ease-in-out;
+}
+.fitedit {
+    margin-right: 5px;
+}
+
+.delete{
+    padding: 4px 10px;
+    background-color: #fe726b;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+}
+.aidelete {
+    margin-right: 2px;
+}
+
+.delete:hover{
+    transform: scale(1.04);
+}
+.edit:hover{
+    transform: scale(1.04);
+}
+.completed{
+    background: #57ed4c;
+    border-radius: 5px;
+    padding: 4px;
+    font-weight:bold ;
+    font-size: 15px;
+}
+.progress{
+    background: #ffe15c;
+    border-radius: 5px;
+    padding: 4px;
+    font-weight:bold ;
+    font-size: 15px;
+}
